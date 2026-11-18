@@ -681,7 +681,6 @@ function dessinerHangar(): void {
     if (enCoursLivraisonGuide()) {
         screen.fillRect(0, 98, 160, 10, COULEUR_BLEUE)
         screen.fillRect(0, 98, 6, 10, COULEUR_JAUNE)
-        ecrireTexteJeu(Textes.t(286), 1, 101, COULEUR_FOND)
         ecrireTexteJeu(texteDefilant(nomEtapeTutoriel(), 25), 8, 101, COULEUR_JAUNE)
     }
     if (confirmationOuverte) {
